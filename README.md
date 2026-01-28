@@ -1,3 +1,11 @@
+## 🌐 Démo en ligne
+
+Vous pouvez visualiser l'application directement ici :  
+[https://schl-demo-eight.vercel.app/](https://schl-demo-eight.vercel.app/)
+
+> Cette démo montre l’architecture frontend prête pour intégration avec un backend .NET/C#, avec tableaux de bord, gestion des dossiers, rôles utilisateurs et design professionnel.
+
+
 # Housing Case Management System - Frontend Demonstration
 
 A professional enterprise-grade housing case management system frontend built with React 19, Next.js 16, and TypeScript. This application is a **frontend demonstration layer** specifically designed for integration with a .NET/C# REST API backend following ASP.NET Core enterprise architecture patterns commonly used in Canadian public-sector organizations.
@@ -848,3 +856,10 @@ To test as Admin, update the `role` in `/lib/auth-context.tsx`.
 **Version**: 1.0.0  
 **Status**: Enterprise Frontend Demonstration – Ready for .NET Backend Integration  
 **Intended for**: Senior Full Stack .NET Developer positions in Canadian public-sector organizations
+
+## 📞 Contact
+
+**Mohamed Azizi**  
+📧 mohazizi686@gmail.com  
+📞 +212 65 546 6408  
+🌐 Démo : [https://schl-demo-eight.vercel.app/](https://schl-demo-eight.vercel.app/)
