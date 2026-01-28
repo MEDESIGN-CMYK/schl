@@ -1,18 +1,13 @@
-import React from "react";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"] });
-const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Housing Case Management System",
   description: "Enterprise housing case management application",
-  icons: {
-    icon: "/favicon.ico",
-  },
     generator: 'v0.app'
 };
 
@@ -23,9 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${geist.className} ${geistMono.className} antialiased`}
-      >
+      <head>
+        {/* FORCE favicon override */}
+        <link rel="icon" href="/favicon.ico?v=3" />
+      </head>
+      <body className={`${geist.className} antialiased`}>
         {children}
         <Analytics />
       </body>
